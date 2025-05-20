@@ -60,33 +60,6 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-
-          {/* Services */}
-          <div>
-            <h3 className="text-lg font-semibold mb-4 border-b border-gray-700 pb-2">Our Services</h3>
-            <ul className="space-y-2">
-              <li>
-                <a href="#services" className="text-gray-400 hover:text-white transition-colors">
-                  Solar PTZ
-                </a>
-              </li>
-              <li>
-                <a href="#services" className="text-gray-400 hover:text-white transition-colors">
-                  IP Camera
-                </a>
-              </li>
-              <li>
-                <a href="#services" className="text-gray-400 hover:text-white transition-colors">
-                  LiFePO₄ Battery
-                </a>
-              </li>
-              <li>
-                <a href="#services" className="text-gray-400 hover:text-white transition-colors">
-                  Tubular Battery
-                </a>
-              </li>
-            </ul>
-          </div>
         </div>
 
         <div className="border-t border-gray-800 mt-12 pt-6 flex flex-col md:flex-row justify-between items-center">
