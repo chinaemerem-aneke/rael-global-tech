@@ -21,7 +21,7 @@ const Footer = () => {
               </a>
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
                 <FaTwitter className="h-5 w-5" />
-                <span className="sr-only">Twitter</span>
+                <span className="sr-only">X</span>
               </a>
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
                 <FaInstagram className="h-5 w-5" />
@@ -64,22 +64,11 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 mt-12 pt-6 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-500 text-sm">
-            &copy; {new Date().getFullYear()} Rael Global Tech. All rights reserved.
+            &copy; 
+            
+            
+            {new Date().getFullYear()} Rael Global Tech. All rights reserved.
           </p>
-          <div className="mt-4 md:mt-0">
-            <ul className="flex space-x-6 text-sm">
-              <li>
-                <a href="#" className="text-gray-500 hover:text-white transition-colors">
-                  Privacy Policy
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-500 hover:text-white transition-colors">
-                  Terms of Service
-                </a>
-              </li>
-            </ul>
-          </div>
         </div>
       </div>
     </footer>
