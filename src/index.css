@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+:root {
+  @theme {
+    /* Font */
+      --font-poppins: Poppins, sans-serif;
+
+    /* Colors */
+    --color-rael-blue: oklch(39.73% 0.14 264.16);
+
+    /* Background Images */
+    --bg-hero-image: url('./assets/hero-image1.png')
+  }
+}
+
+body {
+  font-family: var(--font-poppins);
+}
+
+.background {
+  background: url('./assets/about-us.png');
+  background-size: cover;
+  background-position: center;
+}
+
+/* a:hover,
+a:focus {
+  border-bottom: 1px var(--color-rael-blue) solid;
+} */
