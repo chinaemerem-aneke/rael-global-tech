@@ -37,7 +37,7 @@ const HeroSection = () => {
                 </svg>
               </div>
               <h3 className="text-white font-semibold text-lg mb-2">Clean Energy</h3>
-              <p className="text-gray-300">Harness the power of the sun with our eco-friendly solutions</p>
+              <p className="text-gray-100">Harness the power of the sun with our eco-friendly solutions</p>
             </div>
 
             <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
@@ -53,7 +53,7 @@ const HeroSection = () => {
                 </svg>
               </div>
               <h3 className="text-white font-semibold text-lg mb-2">Energy Storage</h3>
-              <p className="text-gray-300">Advanced battery technology for reliable power storage</p>
+              <p className="text-gray-100">Advanced battery technology for reliable power storage</p>
             </div>
 
             <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
@@ -74,7 +74,7 @@ const HeroSection = () => {
                 </svg>
               </div>
               <h3 className="text-white font-semibold text-lg mb-2">24/7 Power</h3>
-              <p className="text-gray-300">Continuous electricity supply regardless of grid conditions</p>
+              <p className="text-gray-100">Continuous electricity supply regardless of grid conditions</p>
             </div>
           </div>
 
