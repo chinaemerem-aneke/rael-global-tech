@@ -1,4 +1,7 @@
 import solarPTZ from "../assets/solarPTZ.png"
+import LithiumBattery from "../assets/LithiumBattery.png"
+import IpCamera from "../assets/IpCamera.png"
+import TubularBattery from "../assets/TubularBattery.png"
 
 const OurServices = () => {
   const services = [
@@ -8,28 +11,24 @@ const OurServices = () => {
       description:
         "High-performance solar-powered pan-tilt-zoom (PTZ) camera ideal for remote surveillance and security.",
       image: solarPTZ,
-      icon: "📹",
     },
     {
       id: 2,
       title: "IP Camera (Live View)",
       description: "Internet-enabled camera system that provides real-time live video feeds accessible from anywhere.",
-      image: solarPTZ,
-      icon: "🔍",
+      image: IpCamera,
     },
     {
       id: 3,
       title: "LiFePO₄ Lithium-Ion Battery",
       description: "Long-lasting, safe, and efficient lithium battery technology for reliable solar energy storage.",
-      image: solarPTZ,
-      icon: "🔋",
+      image: LithiumBattery,
     },
     {
       id: 4,
       title: "Tubular Battery",
       description: "Robust lead-acid battery designed for deep-cycle usage and extended backup power support.",
-      image: solarPTZ,
-      icon: "⚡",
+      image: TubularBattery,
     },
   ]
 
@@ -54,19 +53,16 @@ const OurServices = () => {
                 <img
                   src={service.image || "/placeholder.svg"}
                   alt={service.title}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-contain m-2"
                   onError={(e) => {
                     e.target.onerror = null
                     e.target.src = "/placeholder.svg"
                   }}
                 />
-                <div className="absolute top-4 left-4 bg-blue-600 text-white text-2xl w-10 h-10 rounded-full flex items-center justify-center">
-                  {service.icon}
-                </div>
               </div>
 
               <div className="p-6">
-                <h3 className="text-xl font-bold text-gray-800 mb-3">{service.title}</h3>
+                <h3 className="text-xl font-bold text-rael-blue mb-3">{service.title}</h3>
                 <p className="text-gray-600 mb-4">{service.description}</p>
                 <a
                   href="#contact-us"
