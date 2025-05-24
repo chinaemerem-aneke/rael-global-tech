@@ -47,7 +47,7 @@ const OurServices = () => {
           {services.map((service) => (
             <div
               key={service.id}
-              className="bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 group"
+              className="bg-white p-2 rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 group"
             >
               <div className="relative h-48 w-full">
                 <img
